@@ -11,7 +11,7 @@
 }
 
 :root[data-seed] {
-  --seed-static-color-static-black: #000000;
+  --seed-static-color-static-black: rgba(0, 0, 0, 1);
   --seed-static-color-static-white: #ffffff;
   --seed-static-color-static-gray-900: #212124;
   --seed-static-color-static-carrot-50: #fff5f0;
@@ -53,7 +53,7 @@
   --seed-scale-color-carrot-200: #ffd2b9;
   --seed-scale-color-carrot-300: #ffbc97;
   --seed-scale-color-carrot-400: #ff9e66;
-  --seed-scale-color-carrot-500: #ff6f0f;
+  --seed-scale-color-carrot-500: #ff7e36;
   --seed-scale-color-carrot-600: #fa6616;
   --seed-scale-color-carrot-700: #f05705;
   --seed-scale-color-carrot-800: #cc4700;
@@ -129,9 +129,9 @@
   --seed-scale-color-gray-alpha-100: #0000001a;
   --seed-scale-color-gray-alpha-200: #00000033;
   --seed-scale-color-gray-alpha-500: #00000080;
-  --seed-scale-color-carrot-alpha-50: #ff6f0f0d;
-  --seed-scale-color-carrot-alpha-100: #ff6f0f24;
-  --seed-scale-color-carrot-alpha-200: #ff6f0f33;
+  --seed-scale-color-carrot-alpha-50: #ff7e360d;
+  --seed-scale-color-carrot-alpha-100: #ff7e3624;
+  --seed-scale-color-carrot-alpha-200: #ff7e3633;
   --seed-scale-color-blue-alpha-50: #009CEB0d;
   --seed-scale-color-blue-alpha-100: #009CEB1a;
   --seed-scale-color-blue-alpha-200: #009CEB33;
@@ -145,15 +145,15 @@
   --seed-scale-color-green-alpha-100: #1AA17424;
   --seed-scale-color-green-alpha-200: #1AA17433;
   --seed-semantic-color-primary: var(--seed-scale-color-carrot-500);
-  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-50);
-  --seed-semantic-color-secondary: var(--seed-scale-color-gray-900);
-  --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-50);
+  --seed-semantic-color-secondary: var(--seed-scale-color-blue-500);
+  --seed-semantic-color-secondary-low: var(--seed-scale-color-blue-50);
   --seed-semantic-color-success: var(--seed-scale-color-green-500);
-  --seed-semantic-color-success-low: var(--seed-scale-color-green-alpha-50);
+  --seed-semantic-color-success-low: var(--seed-scale-color-green-50);
   --seed-semantic-color-warning: var(--seed-scale-color-yellow-300);
-  --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-alpha-100);
+  --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-50);
   --seed-semantic-color-danger: var(--seed-scale-color-red-600);
-  --seed-semantic-color-danger-low: var(--seed-scale-color-red-alpha-50);
+  --seed-semantic-color-danger-low: var(--seed-scale-color-red-50);
   --seed-semantic-color-paper-sheet: var(--seed-scale-color-gray-00);
   --seed-semantic-color-paper-dialog: var(--seed-scale-color-gray-00);
   --seed-semantic-color-paper-floating: var(--seed-scale-color-gray-00);
@@ -177,9 +177,6 @@
   --seed-semantic-color-divider-1: var(--seed-scale-color-gray-alpha-50);
   --seed-semantic-color-divider-2: var(--seed-scale-color-gray-200);
   --seed-semantic-color-divider-3: var(--seed-scale-color-gray-300);
-  --seed-semantic-color-accent: var(--seed-scale-color-blue-500);
-  --seed-semantic-color-ink-text: var(--seed-scale-color-gray-900);
-  --seed-semantic-color-ink-text-low: var(--seed-scale-color-gray-600);
 }
 
 :root[data-seed][data-seed-scale-color=dark]:not([data-seed=light-only]),
@@ -193,14 +190,14 @@
   --seed-scale-color-gray-500: #6d717a;
   --seed-scale-color-gray-600: #868b94;
   --seed-scale-color-gray-700: #adb1ba;
-  --seed-scale-color-gray-800: #ced3de;
+  --seed-scale-color-gray-800: #CED3DE;
   --seed-scale-color-gray-900: #eaebee;
   --seed-scale-color-carrot-50: #7a3814;
   --seed-scale-color-carrot-100: #974011;
   --seed-scale-color-carrot-200: #bf4c0d;
   --seed-scale-color-carrot-300: #d15715;
   --seed-scale-color-carrot-400: #e96017;
-  --seed-scale-color-carrot-500: #ff6e1d;
+  --seed-scale-color-carrot-500: #ed7735;
   --seed-scale-color-carrot-600: #ee9561;
   --seed-scale-color-carrot-700: #edb08e;
   --seed-scale-color-carrot-800: #edc4ad;
@@ -276,15 +273,15 @@
   --seed-scale-color-gray-alpha-100: #ffffff1a;
   --seed-scale-color-gray-alpha-200: #ffffff33;
   --seed-scale-color-gray-alpha-500: #ffffff80;
-  --seed-scale-color-carrot-alpha-50: #ff6e1d14;
-  --seed-scale-color-carrot-alpha-100: #ff6e1d24;
-  --seed-scale-color-carrot-alpha-200: #ff6e1d33;
+  --seed-scale-color-carrot-alpha-50: #e9601714;
+  --seed-scale-color-carrot-alpha-100: #e9601724;
+  --seed-scale-color-carrot-alpha-200: #e9601733;
   --seed-scale-color-blue-alpha-50: #079AE30d;
   --seed-scale-color-blue-alpha-100: #079AE31a;
   --seed-scale-color-blue-alpha-200: #079AE333;
-  --seed-scale-color-red-alpha-50: #F746390d;
-  --seed-scale-color-red-alpha-100: #F746391a;
-  --seed-scale-color-red-alpha-200: #F7463933;
+  --seed-scale-color-red-alpha-50: #F2291B0d;
+  --seed-scale-color-red-alpha-100: #F2291B1a;
+  --seed-scale-color-red-alpha-200: #F2291B33;
   --seed-scale-color-yellow-alpha-50: #F0BB6C14;
   --seed-scale-color-yellow-alpha-100: #F0BB6C24;
   --seed-scale-color-yellow-alpha-200: #F0BB6C3d;
@@ -292,15 +289,15 @@
   --seed-scale-color-green-alpha-100: #1E9C7224;
   --seed-scale-color-green-alpha-200: #1E9C7233;
   --seed-semantic-color-primary: var(--seed-scale-color-carrot-500);
-  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-50);
-  --seed-semantic-color-secondary: var(--seed-scale-color-gray-900);
-  --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-50);
+  --seed-semantic-color-secondary: var(--seed-scale-color-blue-500);
+  --seed-semantic-color-secondary-low: var(--seed-scale-color-blue-50);
   --seed-semantic-color-success: var(--seed-scale-color-green-500);
-  --seed-semantic-color-success-low: var(--seed-scale-color-green-alpha-50);
+  --seed-semantic-color-success-low: var(--seed-scale-color-green-50);
   --seed-semantic-color-warning: var(--seed-scale-color-yellow-700);
-  --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-alpha-50);
+  --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-300);
   --seed-semantic-color-danger: var(--seed-scale-color-red-400);
-  --seed-semantic-color-danger-low: var(--seed-scale-color-red-alpha-50);
+  --seed-semantic-color-danger-low: var(--seed-scale-color-red-50);
   --seed-semantic-color-paper-sheet: var(--seed-scale-color-gray-50);
   --seed-semantic-color-paper-dialog: var(--seed-scale-color-gray-100);
   --seed-semantic-color-paper-floating: var(--seed-scale-color-gray-100);
@@ -324,7 +321,4 @@
   --seed-semantic-color-divider-1: var(--seed-scale-color-gray-alpha-50);
   --seed-semantic-color-divider-2: var(--seed-scale-color-gray-200);
   --seed-semantic-color-divider-3: var(--seed-scale-color-gray-alpha-200);
-  --seed-semantic-color-accent: var(--seed-scale-color-blue-500);
-  --seed-semantic-color-ink-text: var(--seed-scale-color-gray-900);
-  --seed-semantic-color-ink-text-low: var(--seed-scale-color-gray-600);
 }
