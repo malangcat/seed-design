@@ -36,6 +36,3 @@ export const textSelection = 'var(--seed-semantic-color-text-selection)';
 export const divider1 = 'var(--seed-semantic-color-divider-1)';
 export const divider2 = 'var(--seed-semantic-color-divider-2)';
 export const divider3 = 'var(--seed-semantic-color-divider-3)';
-export const accent = 'var(--seed-semantic-color-accent)';
-export const inkText = 'var(--seed-semantic-color-ink-text)';
-export const inkTextLow = 'var(--seed-semantic-color-ink-text-low)';
