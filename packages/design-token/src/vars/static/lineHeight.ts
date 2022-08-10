@@ -1,0 +1,9 @@
+export const static100 = 'var(--seed-static-line-height-static-100)';
+export const static140 = 'var(--seed-static-line-height-static-140)';
+export const static160 = 'var(--seed-static-line-height-static-160)';
+export const static180 = 'var(--seed-static-line-height-static-180)';
+export const static200 = 'var(--seed-static-line-height-static-200)';
+export const static220 = 'var(--seed-static-line-height-static-220)';
+export const static300 = 'var(--seed-static-line-height-static-300)';
+export const static340 = 'var(--seed-static-line-height-static-340)';
+export const static400 = 'var(--seed-static-line-height-static-400)';
