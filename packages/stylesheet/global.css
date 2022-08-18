@@ -145,12 +145,12 @@
   --seed-scale-color-green-alpha-100: #1AA17424;
   --seed-scale-color-green-alpha-200: #1AA17433;
   --seed-semantic-color-primary: var(--seed-scale-color-carrot-500);
-  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-50);
+  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-100);
   --seed-semantic-color-secondary: var(--seed-scale-color-gray-900);
   --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-100);
   --seed-semantic-color-success: var(--seed-scale-color-green-500);
   --seed-semantic-color-success-low: var(--seed-scale-color-green-alpha-50);
-  --seed-semantic-color-warning: var(--seed-scale-color-yellow-300);
+  --seed-semantic-color-warning: var(--seed-scale-color-yellow-400);
   --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-alpha-100);
   --seed-semantic-color-danger: var(--seed-scale-color-red-600);
   --seed-semantic-color-danger-low: var(--seed-scale-color-red-alpha-50);
@@ -163,9 +163,9 @@
   --seed-semantic-color-paper-accent: var(--seed-scale-color-carrot-50);
   --seed-semantic-color-primary-hover: var(--seed-scale-color-carrot-400);
   --seed-semantic-color-primary-pressed: var(--seed-scale-color-carrot-400);
-  --seed-semantic-color-primary-low-hover: var(--seed-scale-color-carrot-alpha-100);
-  --seed-semantic-color-primary-low-active: var(--seed-scale-color-carrot-alpha-100);
-  --seed-semantic-color-primary-low-pressed: var(--seed-scale-color-carrot-alpha-100);
+  --seed-semantic-color-primary-low-hover: var(--seed-scale-color-carrot-alpha-200);
+  --seed-semantic-color-primary-low-active: var(--seed-scale-color-carrot-alpha-200);
+  --seed-semantic-color-primary-low-pressed: var(--seed-scale-color-carrot-alpha-200);
   --seed-semantic-color-gray-hover: var(--seed-scale-color-gray-100);
   --seed-semantic-color-gray-pressed: var(--seed-scale-color-gray-100);
   --seed-semantic-color-on-primary-low-overlay-50: var(--seed-scale-color-carrot-alpha-50);
@@ -180,6 +180,7 @@
   --seed-semantic-color-accent: var(--seed-scale-color-blue-500);
   --seed-semantic-color-ink-text: var(--seed-scale-color-gray-900);
   --seed-semantic-color-ink-text-low: var(--seed-scale-color-gray-600);
+  --seed-semantic-color-gray-active: var(--seed-scale-color-gray-700);
 }
 
 :root[data-seed][data-seed-scale-color=dark]:not([data-seed=light-only]),
@@ -294,7 +295,7 @@
   --seed-semantic-color-primary: var(--seed-scale-color-carrot-500);
   --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-50);
   --seed-semantic-color-secondary: var(--seed-scale-color-gray-900);
-  --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-400);
   --seed-semantic-color-success: var(--seed-scale-color-green-500);
   --seed-semantic-color-success-low: var(--seed-scale-color-green-alpha-50);
   --seed-semantic-color-warning: var(--seed-scale-color-yellow-700);
@@ -327,4 +328,5 @@
   --seed-semantic-color-accent: var(--seed-scale-color-blue-500);
   --seed-semantic-color-ink-text: var(--seed-scale-color-gray-900);
   --seed-semantic-color-ink-text-low: var(--seed-scale-color-gray-600);
+  --seed-semantic-color-gray-active: var(--seed-scale-color-gray-100);
 }
