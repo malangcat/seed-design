@@ -1,0 +1,1 @@
+export const staticPercent100 = 'var(--seed-static-dimension-static-percent-100)';
