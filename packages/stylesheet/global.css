@@ -12,7 +12,7 @@
 
 :root[data-seed] {
   --seed-static-color-static-black: #000000;
-  --seed-static-color-static-white: #ffffff;
+  --seed-static-color-static-white: rgba(255, 255, 255, 1);
   --seed-static-color-static-gray-900: #212124;
   --seed-static-color-static-carrot-50: #fff5f0;
   --seed-static-color-static-carrot-800: #cc4700;
@@ -262,10 +262,10 @@
   --seed-scale-color-purple-800: #4F3699;
   --seed-scale-color-purple-900: #3F2687;
   --seed-scale-color-purple-950: #331E70;
-  --seed-scale-color-gray-alpha-50: #0000000d;
-  --seed-scale-color-gray-alpha-100: #0000001a;
-  --seed-scale-color-gray-alpha-200: #00000033;
-  --seed-scale-color-gray-alpha-500: #00000080;
+  --seed-scale-color-gray-alpha-50: rgba(0, 23, 88, 0.05);
+  --seed-scale-color-gray-alpha-100: rgba(21, 35, 78, 0.10196078431372549);
+  --seed-scale-color-gray-alpha-200: rgba(25, 35, 62, 0.2);
+  --seed-scale-color-gray-alpha-500: rgba(40, 46, 64, 0.5019607843137255);
   --seed-scale-color-carrot-alpha-50: #ff6f0f0d;
   --seed-scale-color-carrot-alpha-100: #ff6f0f24;
   --seed-scale-color-carrot-alpha-200: #ff6f0f33;
